@@ -1,0 +1,384 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #181823;
+    margin-bottom: 20px;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #1F8A70;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #EFF5F5;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Estilos para el div "titulo" */
+.titulo {
+    background-color: #FC7300;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.titulo img {
+    width: 100%;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    color: #181823;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #1F8A70;
+}
+
+/* Alineación de imagen y texto en "Quiénes Somos" */
+#quienes-somos .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFF5F5;
+}
+
+#quienes-somos img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+/* Tarjetas en "Por Qué Elegirnos" */
+#por-que-elegirnos .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #FC7300;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tarjeta img {
+    width: 80px;
+}
+
+/* Estilos para el div "texto" */
+#propuesta-educativa .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#propuesta-educativa .texto {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+}
+
+#propuesta-educativa .texto h2 {
+    color: #181823;
+    margin-bottom: 20px;
+}
+
+#propuesta-educativa .texto p {
+    color: #1F8A70;
+}
+
+/* Estilos para el div "imagen" */
+#propuesta-educativa .imagen {
+    width: 100%;
+}
+
+#propuesta-educativa .imagen img {
+    width: 100%;
+}
+
+/* Estilos para la sección de "Últimas Noticias" */
+#ultimas-noticias .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #1F8A70;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tarjeta h3 {
+    color: #181823;
+    margin: 10px 0;
+}
+
+.tarjeta p {
+    color: #1F8A70;
+}
+
+/* Footer */
+footer {
+    background-color: #00425A;
+    color: #EFF5F5;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: #EFF5F5;
+}
+
+footer a:hover {
+    color: #FC7300;
+}
+
+/* Estilos para cada parte del footer */
+.footer-parte {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-parte h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    padding: 0;
+}
+
+.footer-parte img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contacto-info {
+    text-align: left;
+}
+
+.contacto-info p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    color: #181823;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #FC7300;
+    color: #EFF5F5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1F8A70;
+}
+
+h3 {
+    text-align: center;
+    color: #181823;
+    margin-bottom: 20px;
+}
+
+.volver-inicio {
+    display: block;
+    width: 180px;
+    text-align: center;
+    margin: 30px auto;
+    background-color: #00425A;
+    color: #EFF5F5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.volver-inicio:hover {
+    background-color: #1F8A70;
+}
+
+/* Estilos para tablet y escritorio con min-width 768px */
+@media screen and (min-width: 768px) {
+
+    /* Barra de navegación */
+    nav a {
+        padding: 10px 25px;
+    }
+
+    /* Estilos para el div "titulo" */
+    .titulo {
+        margin-bottom: 60px;
+    }
+
+    /* Alineación de imagen y texto en "Quiénes Somos" */
+    #quienes-somos .contenido {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #quienes-somos img {
+        max-width: 50%;
+        margin-right: 20px;
+    }
+
+
+    /* Tarjetas en "Por Qué Elegirnos" */
+#por-que-elegirnos .contenido {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+    .tarjeta {
+        width: 30%;
+    }
+
+    /* Estilos para el div "texto" y "imagen" en "Propuesta Educativa" */
+    #propuesta-educativa .contenido {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #propuesta-educativa .texto {
+        width: 50%;
+        padding-right: 20px;
+        text-align: left;
+    }
+
+    #propuesta-educativa .texto h2 {
+        font-size: 26px;
+    }
+
+    #propuesta-educativa .texto p {
+        font-size: 16px;
+    }
+
+    #propuesta-educativa .imagen {
+        width: 50%;
+    }
+
+    #propuesta-educativa .imagen img {
+        max-width: 100%;
+    }
+
+    /* Estilos para la sección de "Últimas Noticias" */
+    #ultimas-noticias .contenido {
+        justify-content: space-between;
+    }
+
+    .tarjeta {
+        width: 45%;
+        margin: 0;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+    }
+
+    .footer-parte {
+        margin-bottom: 0;
+    }
+
+    /* Estilos para la tercera parte del footer (parte derecha) */
+    .footer-parte.contacto-info {
+        text-align: left;
+    }
+
+    .footer-parte.contacto-info p {
+        margin: 10px 0;
+    }
+}
